@@ -1,0 +1,69 @@
+/* ========================================= Header ==========================================*/
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 9%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    z-index: 100;
+    justify-content: space-between;
+}
+
+.header > input{
+    width: 100px;
+    margin-left: -30px;
+}
+
+.header > input > p {
+    color: white;
+}
+
+.header > h1{
+    color: aliceblue;
+}
+
+/* ======================================= Container ==========================================*/
+
+.container{
+display: grid;
+margin-top: 140px;
+margin-bottom: 130px;
+overflow-y: auto;
+}
+
+.row1{
+display: flex;
+gap: 1px;
+margin-left: 2px;
+}
+
+.highlighted {
+font-weight: bold;
+background-color: #e0e0e0; 
+}
+
+
+/* ==================== Footer =======================*/
+.footer{
+display: flex;
+align-items: center;
+flex-wrap: wrap;
+background-color: black;
+padding: 2rem 9%;
+position: fixed;
+bottom: 0;
+left: 0;
+width: 100%;
+z-index: 1000;
+gap: 10px;
+}
+
+.footer > button > a {
+text-decoration: none;
+color: #333;
+font-size: 20px;
+font-weight: bold;
+}
