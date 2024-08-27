@@ -40,12 +40,6 @@ gap: 1px;
 margin-left: 2px;
 }
 
-.highlighted {
-font-weight: bold;
-background-color: #e0e0e0; 
-}
-
-
 /* ==================== Footer =======================*/
 .footer{
 display: flex;
