@@ -40,6 +40,10 @@ gap: 1px;
 margin-left: 2px;
 }
 
+.col.hidden {
+    display: none;
+}
+
 /* ==================== Footer =======================*/
 .footer{
 display: flex;

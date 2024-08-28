@@ -5,5 +5,5 @@
     </div>
     <div style="margin-bottom: 100px; display: flex; justify-content: center;">
         <button class="btn btn-primary" type="button" onclick="submitForm()">Lưu thông tin</button>
-    </div>  
+    </div>
 </form>

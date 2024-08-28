@@ -2,8 +2,8 @@
 
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\HomeController;
 use App\Http\Controllers\BudgetController;
+use App\Models\Budgets;
 
 //Route::get('/', [HomeController::class, 'home']);
 
@@ -15,5 +15,6 @@ Route::middleware('auth')->group(function () {
 
 Route::get('/', [BudgetController::class, 'index']);
 Route::post('/save_Table', [BudgetController::class, 'saveTable']);
+//Route::get('/api/view-table', [BudgetController::class, 'show_Table']);
 
 require __DIR__.'/auth.php';

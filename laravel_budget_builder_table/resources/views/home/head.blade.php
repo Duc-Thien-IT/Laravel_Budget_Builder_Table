@@ -5,3 +5,11 @@
 <link href="{{asset('style.css')}}" rel="stylesheet" >
 <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
 <title>Sheet</title>
+<style>
+    .container-grid {
+        display: none;
+    }
+    .container-grid.active {
+        display: block;
+    }
+</style>

@@ -62,7 +62,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 function submitForm() {
-    document.getElementById('budgetForm').submit();
+        document.getElementById('budgetForm').submit();
 }
 
 //

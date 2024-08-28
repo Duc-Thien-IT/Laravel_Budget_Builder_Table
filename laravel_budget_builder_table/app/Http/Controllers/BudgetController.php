@@ -9,7 +9,8 @@ class BudgetController extends Controller
 {
     public function index()
     {
-        return view('home.index');
+        $data = Budgets::all();
+        return view('home.index', compact('data'));
     }
 
     public function saveTable(Request $request) {
@@ -44,10 +45,4 @@ class BudgetController extends Controller
         return redirect()->back();
     }
 
-    public function new_Table(){
-        $budgets = new Budgets();
-        
-
-        return view('home.index');
-    }
 }
